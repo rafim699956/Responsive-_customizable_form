@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Chivo Mono", monospace;
+}
+
+.container {
+    max-width: 753px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: rgba(229, 230, 175, 1);
+    padding: 79px 97px 40px 98px;
+}
+
+.label_field label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.66px;
+    color: rgba(42, 42, 42, 1);
+    display: block;
+    margin-bottom: 7px;
+}
+
+.input_field input,
+.input_field select {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+    transition: all linear .3s;
+    margin-bottom: 30px;
+    border: 2px solid #FFFFFF;
+}
+
+.input_field input:hover {
+    border: 2px solid rgb(128, 65, 210);
+}
+
+.input_field input[type=placeholder] {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.66px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.phone {
+    width: 80.36%;
+}
+
+.btn {
+    width: 17.56%;
+}
+
+.btn input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1.5px solid rgba(74, 61, 229, 1);
+    color: rgba(74, 61, 229, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.66px;
+    transition: all linear .3s;
+}
+
+.btn input:hover {
+    background: rgba(74, 61, 229, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.input_field {
+    position: relative;
+}
+
+.input_field img {
+    position: absolute;
+    right: 13.5px;
+    top: 12.5px;
+    width: 22px;
+    height: 21px;
+}
+
+.gender {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.male label,
+.female label {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    vertical-align: super;
+}
+
+.male input,
+.female input,
+.toggle_btn input {
+    width: 24px;
+    height: 24px;
+    border: 1.5px 0px 0px 0px;
+    border: 1.5px solid rgba(42, 42, 42, 1);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    width: 4.08;
+}
+
+.checkbox input {
+    width: 24px;
+    height: 24px;
+    border: 1.2px solid rgba(42, 42, 42, 1)
+}
+
+.text {
+    width: 92.83%;
+}
+
+.text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.66px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer_btn {
+    margin-top: 64px;
+    margin-bottom: 42px;
+}
+
+.footer_btn input {
+    width: 100%;
+    border-radius: 4px;
+    padding: 19px 25px;
+    font-size: 14px;
+    border: none;
+    font-weight: 400;
+    line-height: 16.66px;
+    text-align: center;
+    color: black;
+    transition: all linear .3s;
+}
+
+.footer_btn input:hover {
+    background: rgba(74, 61, 229, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.input_field select option {
+    color: rgba(42, 42, 42, 1);
+
+}
